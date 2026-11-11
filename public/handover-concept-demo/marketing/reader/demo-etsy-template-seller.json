@@ -1,0 +1,35 @@
+{
+  "project": {
+    "title": "Digital product listing kit",
+    "clientName": "Maison Mockup",
+    "description": "Your listing kit is ready: editable templates, customer download files, shopfront assets, listing mockups, launch copy, and sales tracking links.",
+    "publicId": "demo-etsy-template-seller",
+    "readerTheme": "light",
+    "clientLogoPath": "demo-assets/etsy-logo.svg"
+  },
+  "author": {
+    "displayName": "Rhea Calder",
+    "title": "Template Shop Designer",
+    "email": "rhea@example.com",
+    "businessName": "Calder Supply Co.",
+    "businessPhone": "+1 503 619 2840",
+    "businessEmail": "templates@example.com",
+    "authorDisplay": "both"
+  },
+  "cards": [
+    { "id": "etsy-section-products", "type": "section", "title": "Product Bundle", "sortOrder": 0 },
+    { "id": "etsy-template-master", "type": "link", "title": "Canva Template Master Pack", "url": "https://www.figma.com/file/demo-maison-mockup-template-master", "providerType": "figma", "badgeKey": "figma", "note": "Editable source layouts for product mockups, listing images, banners, and promo graphics.", "sortOrder": 1, "createdAt": "2026-05-20T10:00:00Z", "publishedAt": "2026-06-02T08:00:00Z" },
+    { "id": "etsy-download-folder", "type": "link", "title": "Customer Download Folder", "url": "https://drive.google.com/drive/folders/demo-maison-mockup-downloads", "providerType": "google_drive", "badgeKey": "googledrive", "note": "Customer PDF, license file, editable links, quick-start guide, and bonus files.", "sortOrder": 2, "createdAt": "2026-05-21T11:30:00Z", "publishedAt": "2026-06-02T08:00:00Z" },
+    { "id": "etsy-section-shopfront", "type": "section", "title": "Shopfront Assets", "sortOrder": 3 },
+    { "id": "etsy-shop-listing", "type": "link", "title": "Etsy Listing Draft", "url": "https://www.etsy.com/shop/demo-maison-mockup", "providerType": "generic", "badgeKey": "etsy", "note": "Product title, search tags, pricing notes, categories, FAQs, and delivery instructions.", "sortOrder": 4, "createdAt": "2026-05-24T12:00:00Z", "publishedAt": "2026-06-04T08:30:00Z" },
+    { "id": "etsy-shopify-backup", "type": "link", "title": "Shopify Product Backup", "url": "https://demo-maison-mockup.myshopify.com/products/digital-product-listing-kit", "providerType": "generic", "badgeKey": "shopify", "note": "Direct-store version with product page copy, bundle pricing, and post-purchase messaging.", "sortOrder": 5, "createdAt": "2026-05-25T14:30:00Z", "publishedAt": "2026-06-04T08:30:00Z" },
+    { "id": "etsy-section-mockups", "type": "section", "title": "Listing Mockups", "sortOrder": 6 },
+    { "id": "etsy-mockup-pack", "type": "link", "title": "Mockup Image Pack", "url": "https://www.dropbox.com/scl/fo/demo-maison-mockup-image-pack", "providerType": "dropbox", "badgeKey": "dropbox", "note": "Laptop, tablet, phone, flatlay, and square listing graphics for digital products.", "sortOrder": 7, "createdAt": "2026-05-26T09:10:00Z", "publishedAt": "2026-06-04T08:30:00Z" },
+    { "id": "etsy-pinterest-pack", "type": "link", "title": "Pinterest Pin Set", "url": "https://www.pinterest.com/demo-maison-mockup/listing-kit", "providerType": "generic", "badgeKey": "pinterest", "note": "Tall pins, keyword notes, launch-week sequence, and evergreen board structure.", "sortOrder": 8, "createdAt": "2026-05-29T10:00:00Z", "publishedAt": "2026-06-06T09:00:00Z" },
+    { "id": "etsy-section-copy", "type": "section", "title": "Launch Copy", "sortOrder": 9 },
+    { "id": "etsy-copy-bank", "type": "link", "title": "Listing and Email Copy Bank", "url": "https://www.notion.so/demo-maison-mockup-copy-bank", "providerType": "notion", "badgeKey": "notion", "note": "Listing description, launch email, captions, upsell copy, and customer support replies.", "sortOrder": 10, "createdAt": "2026-05-30T15:00:00Z", "publishedAt": "2026-06-06T09:00:00Z" },
+    { "id": "etsy-section-tracking", "type": "section", "title": "Sales Tracking", "sortOrder": 11 },
+    { "id": "etsy-sales-tracker", "type": "link", "title": "Sales and SEO Tracker", "url": "https://docs.google.com/spreadsheets/d/demo-maison-mockup-sales-tracker", "providerType": "google_sheets", "badgeKey": "googlesheets", "note": "Keyword ranking, conversion notes, listing tests, coupon codes, and monthly review fields.", "sortOrder": 12, "createdAt": "2026-05-31T12:40:00Z", "publishedAt": "2026-06-06T09:00:00Z" }
+  ],
+  "publishedAt": "2026-06-06T09:00:00Z"
+}

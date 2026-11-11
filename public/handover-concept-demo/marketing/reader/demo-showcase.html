@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Handover Demo Gallery</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var scenarios = {
+        "video-editor": {
+          label: "Video editor freelancer",
+          snapshot: "demo-video-editor.json",
+          theme: "dark"
+        },
+        "brand-design": {
+          label: "Brand design project",
+          snapshot: "demo-brand-design.json",
+          theme: "dark"
+        },
+        "content-creator": {
+          label: "Content creator",
+          snapshot: "demo-content-creator.json",
+          theme: "light"
+        },
+        "etsy-template-seller": {
+          label: "Template seller on Etsy",
+          snapshot: "demo-etsy-template-seller.json",
+          theme: "light"
+        }
+      };
+
+      var params = new URLSearchParams(window.location.search);
+      var scenarioKey = params.get("scenario") || "video-editor";
+      if (!scenarios[scenarioKey]) scenarioKey = "video-editor";
+
+      var scenario = scenarios[scenarioKey];
+      document.documentElement.className = "theme-" + scenario.theme;
+      window.__SNAPSHOT_URL__ = scenario.snapshot;
+      window.__DEMO_SCENARIOS__ = scenarios;
+      window.__DEMO_SCENARIO_KEY__ = scenarioKey;
+    }());
+  </script>
+  <script src="app.js" defer></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      var scenarios = window.__DEMO_SCENARIOS__ || {};
+      var current = window.__DEMO_SCENARIO_KEY__ || "video-editor";
+      var signUpHref = new URL("../../sign-up/", window.location.href).href;
+      var shell = document.createElement("div");
+      shell.className = "demo-switcher";
+      shell.innerHTML =
+        '<div class="demo-switcher-controls">' +
+        '<label class="demo-switcher-label" for="demo-scenario">Demo</label>' +
+        '<span class="demo-switcher-select-wrap">' +
+        '<select class="demo-switcher-select" id="demo-scenario"></select>' +
+        "</span>" +
+        "</div>" +
+        '<a class="demo-switcher-cta" href="' +
+        signUpHref +
+        '" target="_blank" rel="noopener noreferrer">' +
+        '<span>Create your first handover <span aria-hidden="true">→</span></span>' +
+        "</a>";
+
+      var select = shell.querySelector("select");
+      Object.keys(scenarios).forEach(function (key) {
+        var option = document.createElement("option");
+        option.value = key;
+        option.textContent = scenarios[key].label;
+        option.selected = key === current;
+        select.appendChild(option);
+      });
+
+      select.addEventListener("change", function () {
+        var next = new URL(window.location.href);
+        next.searchParams.set("scenario", select.value);
+        window.location.href = next.toString();
+      });
+
+      document.body.appendChild(shell);
+    });
+  </script>
+</head>
+<body>
+  <div id="app">
+    <noscript>Enable JavaScript to view these demo pages.</noscript>
+  </div>
+</body>
+</html>

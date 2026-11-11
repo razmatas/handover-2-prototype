@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "outputDirectory": "public",
+  "buildCommand": "",
+  "installCommand": "",
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/handover-concept-demo/",
+      "permanent": false
+    }
+  ]
+}

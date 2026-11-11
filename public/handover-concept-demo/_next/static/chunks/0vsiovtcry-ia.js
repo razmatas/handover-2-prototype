@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,96609,e=>{"use strict";var i=e.i(43476),n=e.i(71645);e.s(["ReferenceClosedBeta",0,function(){return(0,n.useEffect)(()=>{window.location.assign("../")},[]),(0,i.jsx)("main",{"aria-live":"polite",className:"min-h-screen bg-background"})}])}]);

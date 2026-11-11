@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reader PIN Test</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    window.__ACCESS_MODE__ = "pin";
+    window.__SNAPSHOT_URL__ = "__demo_snapshot__";
+    window.__UNLOCK_URL__ = "__demo_unlock__";
+
+    (function () {
+      var unlocked = false;
+      var originalFetch = window.fetch;
+
+      window.fetch = function (input, init) {
+        var url = typeof input === "string" ? input : (input && input.url) || "";
+        var method = (init && init.method) || "GET";
+
+        if (url.indexOf("__demo_snapshot__") !== -1 && method === "GET") {
+          if (!unlocked) {
+            return Promise.resolve({
+              ok: false,
+              status: 401,
+              json: function () { return Promise.resolve({ error: "unlock_required" }); },
+            });
+          }
+          return originalFetch("mock-snapshot.json", init);
+        }
+
+        if (url.indexOf("__demo_unlock__") !== -1 && method === "POST") {
+          var body = init && init.body ? JSON.parse(init.body) : {};
+          if (body.pin === "1234") {
+            unlocked = true;
+            return Promise.resolve({ ok: true, status: 204 });
+          }
+          if (body.pin === "4290") {
+            return Promise.resolve({
+              ok: false,
+              status: 429,
+              json: function () { return Promise.resolve({ error: "rate_limited", retryAfterSeconds: 300 }); },
+            });
+          }
+          return Promise.resolve({
+            ok: false,
+            status: 401,
+            json: function () { return Promise.resolve({ error: "unlock_failed" }); },
+          });
+        }
+
+        if (url.indexOf("/api/beacon") !== -1) {
+          return Promise.resolve({ ok: true, status: 204 });
+        }
+
+        return originalFetch.apply(this, arguments);
+      };
+    })();
+  </script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <noscript>Enable JavaScript to view.</noscript>
+  </div>
+  <p style="position:fixed;bottom:12px;left:16px;right:16px;margin:0;text-align:center;font:12px/1.5 system-ui,sans-serif;color:#706b61">Demo simulation: PIN 1234 unlocks this local fixture; it is not real security.</p>
+</body>
+</html>

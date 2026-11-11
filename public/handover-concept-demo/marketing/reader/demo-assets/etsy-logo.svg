@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Maison Mockup">
+  <rect width="160" height="160" rx="34" fill="#fff7ed"/>
+  <rect x="34" y="38" width="92" height="84" rx="22" fill="#111827"/>
+  <rect x="47" y="51" width="66" height="58" rx="14" fill="#f8fafc"/>
+  <path d="M58 94 72 70l18 28 12-16 12 20H58Z" fill="#f97316"/>
+  <text x="80" y="80" text-anchor="middle" font-family="Geist, Arial, sans-serif" font-size="26" font-weight="800" fill="#111827">MM</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "distribution": "Handover 2 Prototype",
+  "kind": "frozen static reference distribution",
+  "repository": "https://github.com/razmatas/handover-2-prototype",
+  "archive": {
+    "name": "handover-concept-demo-publish.zip",
+    "sha256": "2563acec470ec55f83e1578901c59138a8ae73814061e16d773919f9174905db",
+    "bytes": 8356576,
+    "files": 343
+  },
+  "approvedSourceRevision": "85f2258e71ee9feabddc18c090e7cf5a208ec66e",
+  "finalReferenceRevision": "7dfb0dad5cf3bf53377476abf0df033264dd69a0",
+  "sourceWorktree": "/Volumes/Baro/03 Local Projects/handover.today-frontend-preview",
+  "mountPath": "/handover-concept-demo/",
+  "marketingPath": "/handover-concept-demo/marketing/",
+  "hostingStatus": "Pending; Vercel hosting paused after create_project returned 403. No live deployment URL.",
+  "bundleManifest": "checksums.sha256"
+}

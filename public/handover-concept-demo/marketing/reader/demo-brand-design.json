@@ -1,0 +1,32 @@
+{
+  "project": {
+    "title": "Claude partner launch identity",
+    "clientName": "Anthropic",
+    "description": "Final campaign identity files, partner launch templates, messaging guidance, and walkthrough notes are collected here for the launch team.",
+    "publicId": "demo-brand-design",
+    "readerTheme": "dark",
+    "clientLogoPath": "demo-assets/brand-logo.svg"
+  },
+  "author": {
+    "displayName": "Maya Chen",
+    "title": "Brand Systems Designer",
+    "email": "maya@example.com",
+    "businessName": "Studio Meridian",
+    "businessPhone": "+1 415 555 0198",
+    "businessEmail": "hello@example.com",
+    "authorDisplay": "both"
+  },
+  "cards": [
+    { "id": "brand-section-core", "type": "section", "title": "Identity System", "sortOrder": 0 },
+    { "id": "brand-figma", "type": "link", "title": "Figma Campaign System", "url": "https://www.figma.com/file/demo-anthropic-claude-partner-launch", "providerType": "figma", "badgeKey": "figma", "note": "Campaign lockups, color styles, type hierarchy, partner badges, and sample layouts.", "sortOrder": 1, "createdAt": "2026-05-16T08:30:00Z", "publishedAt": "2026-05-29T09:30:00Z" },
+    { "id": "brand-export-pack", "type": "link", "title": "Launch Asset Export Pack", "url": "https://www.dropbox.com/scl/fo/demo-anthropic-launch-asset-pack", "providerType": "dropbox", "badgeKey": "dropbox", "note": "SVG, PNG, PDF, social, email, and event-screen exports for partner teams.", "sortOrder": 2, "createdAt": "2026-05-17T10:00:00Z", "publishedAt": "2026-05-29T09:30:00Z" },
+    { "id": "brand-guidelines", "type": "link", "title": "Campaign Usage Guidelines", "url": "https://docs.google.com/document/d/demo-anthropic-campaign-guidelines", "providerType": "google_docs", "badgeKey": "googledocs", "note": "Spacing, contrast, product-language rules, partner co-branding, and accessibility checks.", "sortOrder": 3, "createdAt": "2026-05-18T14:45:00Z", "publishedAt": "2026-05-29T09:30:00Z" },
+    { "id": "brand-section-story", "type": "section", "title": "Product Story", "sortOrder": 4 },
+    { "id": "brand-copy", "type": "link", "title": "Messaging and Copy Deck", "url": "https://www.notion.so/demo-anthropic-claude-partner-copy", "providerType": "notion", "badgeKey": "notion", "note": "Positioning notes, headline variants, partner proof points, captions, and short ad copy.", "sortOrder": 5, "createdAt": "2026-05-22T11:15:00Z", "publishedAt": "2026-06-01T08:45:00Z" },
+    { "id": "brand-section-launch", "type": "section", "title": "Launch Toolkit", "sortOrder": 6 },
+    { "id": "brand-content-calendar", "type": "link", "title": "Partner Launch Calendar", "url": "https://airtable.com/appDemoAnthropic/shrPartnerLaunch", "providerType": "generic", "badgeKey": "airtable", "note": "Asset owner, partner channel, publish date, compliance status, and approval owner.", "sortOrder": 7, "createdAt": "2026-05-23T10:30:00Z", "publishedAt": "2026-06-01T08:45:00Z" },
+    { "id": "brand-slides", "type": "link", "title": "Enablement Slide Kit", "url": "https://docs.google.com/presentation/d/demo-anthropic-enablement-kit", "providerType": "google_slides", "badgeKey": "googleslides", "note": "Partner-facing intro slides, demo agenda, use-case examples, and speaker notes.", "sortOrder": 8, "createdAt": "2026-05-24T12:20:00Z", "publishedAt": "2026-06-01T08:45:00Z" },
+    { "id": "brand-walkthrough", "type": "link", "title": "Launch System Walkthrough", "url": "https://www.loom.com/share/demo-anthropic-launch-walkthrough", "providerType": "loom", "badgeKey": "loom", "note": "Short recorded tour of the campaign system, file structure, and launch-day checks.", "sortOrder": 9, "createdAt": "2026-05-25T15:00:00Z", "publishedAt": "2026-06-01T08:45:00Z" }
+  ],
+  "publishedAt": "2026-06-01T08:45:00Z"
+}

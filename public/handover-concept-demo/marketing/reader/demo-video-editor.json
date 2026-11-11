@@ -1,0 +1,35 @@
+{
+  "project": {
+    "title": "Run club summer campaign delivery",
+    "clientName": "Nike",
+    "description": "Final review and launch: the hero film, export folders, social cutdowns, thumbnails, campaign copy, and upload notes.",
+    "publicId": "demo-video-editor",
+    "readerTheme": "dark",
+    "clientLogoPath": "demo-assets/video-logo.svg"
+  },
+  "author": {
+    "displayName": "Nico Vale",
+    "title": "Freelance Video Editor",
+    "email": "nico@example.com",
+    "businessName": "Vale Cut Studio",
+    "businessPhone": "+1 312 847 1928",
+    "businessEmail": "edits@example.com",
+    "authorDisplay": "both"
+  },
+  "cards": [
+    { "id": "video-section-review", "type": "section", "title": "Creative Review", "sortOrder": 0 },
+    { "id": "video-review-cut", "type": "link", "title": "Hero Film Review Cut", "url": "https://www.loom.com/share/demo-nike-run-club-review-cut", "providerType": "loom", "badgeKey": "loom", "note": "Annotated walkthrough of the campaign story, pacing, music bed, and end-card treatment.", "sortOrder": 1, "createdAt": "2026-05-21T09:00:00Z", "publishedAt": "2026-06-04T08:00:00Z" },
+    { "id": "video-feedback-board", "type": "link", "title": "Stakeholder Feedback Tracker", "url": "https://www.notion.so/demo-nike-run-club-feedback", "providerType": "notion", "badgeKey": "notion", "note": "Closed comments, unresolved watch-outs, legal notes, and final sign-off status.", "sortOrder": 2, "createdAt": "2026-05-22T10:30:00Z", "publishedAt": "2026-06-04T08:00:00Z" },
+    { "id": "video-section-final", "type": "section", "title": "Final Film Exports", "sortOrder": 3 },
+    { "id": "video-master-export", "type": "link", "title": "Master Export Folder", "url": "https://www.dropbox.com/scl/fo/demo-nike-run-club-master-exports", "providerType": "dropbox", "badgeKey": "dropbox", "note": "4K master, 1080p web export, captions, thumbnail stills, and licensed audio stems.", "sortOrder": 4, "createdAt": "2026-05-28T14:00:00Z", "publishedAt": "2026-06-05T09:00:00Z" },
+    { "id": "video-vimeo-preview", "type": "link", "title": "Private Screening Link", "url": "https://vimeo.com/demo-nike-run-club-summer-film", "providerType": "generic", "badgeKey": "vimeo", "note": "Password-free sample link for regional teams and launch stakeholders.", "sortOrder": 5, "createdAt": "2026-05-29T09:45:00Z", "publishedAt": "2026-06-05T09:00:00Z" },
+    { "id": "video-section-social", "type": "section", "title": "Social Cutdowns", "sortOrder": 6 },
+    { "id": "video-vertical-cuts", "type": "link", "title": "Vertical Cutdown Pack", "url": "https://drive.google.com/drive/folders/demo-nike-run-club-vertical-cuts", "providerType": "google_drive", "badgeKey": "googledrive", "note": "9:16 and 4:5 edits for Reels, TikTok, Shorts, paid social, and store screens.", "sortOrder": 7, "createdAt": "2026-05-30T16:10:00Z", "publishedAt": "2026-06-05T09:00:00Z" },
+    { "id": "video-thumbnail-pack", "type": "link", "title": "Thumbnail and Still Pack", "url": "https://www.dropbox.com/scl/fo/demo-nike-run-club-thumbnail-pack", "providerType": "dropbox", "badgeKey": "dropbox", "note": "Campaign stills, thumbnail crops, safe-area versions, and caption frame references.", "sortOrder": 8, "createdAt": "2026-05-31T10:20:00Z", "publishedAt": "2026-06-05T09:00:00Z" },
+    { "id": "video-section-publishing", "type": "section", "title": "Publishing Package", "sortOrder": 9 },
+    { "id": "video-youtube-package", "type": "link", "title": "YouTube Upload Notes", "url": "https://www.youtube.com/watch?v=demo-nike-run-club-launch", "providerType": "generic", "badgeKey": "youtube", "note": "Title, description, chapters, tags, thumbnail selection, and end-screen notes.", "sortOrder": 10, "createdAt": "2026-06-01T11:20:00Z", "publishedAt": "2026-06-06T08:30:00Z" },
+    { "id": "video-tiktok-package", "type": "link", "title": "TikTok Upload Notes", "url": "https://www.tiktok.com/@demo_nike_run_club/video/123456789", "providerType": "generic", "badgeKey": "tiktok", "note": "Caption copy, first-frame guidance, audio timing, hashtags, and publishing sequence.", "sortOrder": 11, "createdAt": "2026-06-01T12:00:00Z", "publishedAt": "2026-06-06T08:30:00Z" },
+    { "id": "video-campaign-copy", "type": "link", "title": "Campaign Copy Sheet", "url": "https://docs.google.com/document/d/demo-nike-run-club-campaign-copy", "providerType": "google_docs", "badgeKey": "googledocs", "note": "Approved headlines, captions, CTA variants, and regional localization notes.", "sortOrder": 12, "createdAt": "2026-06-01T14:30:00Z", "publishedAt": "2026-06-06T08:30:00Z" }
+  ],
+  "publishedAt": "2026-06-06T08:30:00Z"
+}

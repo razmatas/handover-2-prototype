@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reader Background Experiment</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    window.__SNAPSHOT_URL__ = 'mock-snapshot-backgrounds.json';
+    window.__READER_BACKGROUND_PRESETS__ = [
+      { label: 'Slate', config: { type: 'solid', color: '#8295A9' } },
+      { label: 'Dusk', config: { type: 'gradient', from: '#8295A9', to: '#D2A4B0', angle: 145 } },
+      { label: 'Image', config: { type: 'image', image: 'demo-background.svg', overlay: 0.42 } }
+    ];
+  </script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="app"><noscript>Enable JavaScript to view.</noscript></div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "project": {
+    "title": "Host stories creator kit",
+    "clientName": "Airbnb",
+    "description": "Approved story plans, edited assets, channel launch files, and reporting links for the Host Stories rollout.",
+    "publicId": "demo-content-creator",
+    "readerTheme": "light",
+    "clientLogoPath": "demo-assets/creator-logo.svg"
+  },
+  "author": {
+    "displayName": "Amara Sloane",
+    "title": "Content Producer",
+    "email": "amara@example.com",
+    "businessName": "Sloane Social Works",
+    "businessPhone": "+1 646 308 7142",
+    "businessEmail": "studio@example.com",
+    "authorDisplay": "both"
+  },
+  "cards": [
+    { "id": "creator-section-planning", "type": "section", "title": "Story Planning", "sortOrder": 0 },
+    { "id": "creator-calendar", "type": "link", "title": "Publishing Calendar", "url": "https://airtable.com/appDemoAirbnbHostStories/shrCalendar", "providerType": "generic", "badgeKey": "airtable", "note": "Host story themes, shoot dates, channel notes, asset status, and approval owners.", "sortOrder": 1, "createdAt": "2026-05-26T09:00:00Z", "publishedAt": "2026-06-02T09:00:00Z" },
+    { "id": "creator-story-bank", "type": "link", "title": "Host Story Bank", "url": "https://www.notion.so/demo-airbnb-host-story-bank", "providerType": "notion", "badgeKey": "notion", "note": "Story arcs, interview highlights, pull quotes, captions, and usage guidance.", "sortOrder": 2, "createdAt": "2026-05-27T10:00:00Z", "publishedAt": "2026-06-02T09:00:00Z" },
+    { "id": "creator-section-assets", "type": "section", "title": "Creator Assets", "sortOrder": 3 },
+    { "id": "creator-drive-assets", "type": "link", "title": "Edited Asset Folder", "url": "https://drive.google.com/drive/folders/demo-airbnb-host-stories-assets", "providerType": "google_drive", "badgeKey": "googledrive", "note": "Reels, story slides, cover images, B-roll selects, stills, and raw cutdowns.", "sortOrder": 4, "createdAt": "2026-05-28T11:20:00Z", "publishedAt": "2026-06-04T08:15:00Z" },
+    { "id": "creator-figma-templates", "type": "link", "title": "Social Template System", "url": "https://www.figma.com/file/demo-airbnb-host-stories-social-system", "providerType": "figma", "badgeKey": "figma", "note": "Editable story frames, quote cards, location cards, and channel-safe variants.", "sortOrder": 5, "createdAt": "2026-05-29T14:00:00Z", "publishedAt": "2026-06-04T08:15:00Z" },
+    { "id": "creator-section-launch", "type": "section", "title": "Channel Launch", "sortOrder": 6 },
+    { "id": "creator-instagram", "type": "link", "title": "Instagram Launch Set", "url": "https://www.instagram.com/demo_airbnb_host_stories", "providerType": "generic", "badgeKey": "instagram", "note": "Grid order, caption pairings, story sequence, and saved highlight labels.", "sortOrder": 7, "createdAt": "2026-05-30T13:15:00Z", "publishedAt": "2026-06-04T08:15:00Z" },
+    { "id": "creator-tiktok", "type": "link", "title": "TikTok Cutdown Set", "url": "https://www.tiktok.com/@demo_airbnb/video/123456789", "providerType": "generic", "badgeKey": "tiktok", "note": "Five vertical edits with hook copy, caption notes, and audio timing.", "sortOrder": 8, "createdAt": "2026-05-31T11:10:00Z", "publishedAt": "2026-06-04T08:15:00Z" },
+    { "id": "creator-section-report", "type": "section", "title": "Performance Reporting", "sortOrder": 9 },
+    { "id": "creator-dashboard", "type": "link", "title": "Campaign Dashboard", "url": "https://docs.google.com/spreadsheets/d/demo-airbnb-host-stories-dashboard", "providerType": "google_sheets", "badgeKey": "googlesheets", "note": "Reach, saves, shares, clicks, bookings intent, and notes by story format.", "sortOrder": 10, "createdAt": "2026-06-01T09:40:00Z", "publishedAt": "2026-06-05T09:30:00Z" },
+    { "id": "creator-report", "type": "link", "title": "Launch Week Readout", "url": "https://docs.google.com/document/d/demo-airbnb-host-stories-readout", "providerType": "google_docs", "badgeKey": "googledocs", "note": "Top-performing stories, audience notes, next tests, and reuse recommendations.", "sortOrder": 11, "createdAt": "2026-06-01T15:15:00Z", "publishedAt": "2026-06-05T09:30:00Z" }
+  ],
+  "publishedAt": "2026-06-05T09:30:00Z"
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Abstract evening landscape">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#667890"/>
+      <stop offset=".52" stop-color="#a59ca8"/>
+      <stop offset="1" stop-color="#dfb7a6"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2f4249"/>
+      <stop offset="1" stop-color="#1d2b31"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1230" cy="190" r="88" fill="#f0d6bc" opacity=".86"/>
+  <path d="M0 640C190 565 340 595 520 515s338-156 550-80 360 10 530-105v670H0Z" fill="#516268" opacity=".72"/>
+  <path d="M0 720c180-90 365-52 530-138s365-10 555-72 330-85 515-8v498H0Z" fill="url(#hill)"/>
+  <path d="M0 840c210-95 405-28 588-100s315-26 497-84 320-32 515 42v302H0Z" fill="#17262a" opacity=".9"/>
+  <g fill="#c8a4b4" opacity=".75"><circle cx="156" cy="817" r="5"/><circle cx="183" cy="790" r="4"/><circle cx="220" cy="842" r="6"/><circle cx="1260" cy="805" r="5"/><circle cx="1300" cy="830" r="4"/><circle cx="1380" cy="775" r="6"/></g>
+</svg>
